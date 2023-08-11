@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>About us | Our campus</title>
+</head>
+<body >
+  <!-- <From Bootrap> https://getbootstrap.com/docs/4.0/components/navbar/ -->
+  <nav class="navbar navbar-expand-lg navbar-light header-nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-4 logo">
+                      <strong>
+                          <span class="navbar-brand">
+                              <img src="images/logo.png" class="jc-image">
+                              <span class="jc-text">JC UNIVERSITY</span>
+                          </span>
+                      </strong>
+                  </div>
+                  <div class="col-md-4 navigation-container">
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="/about.html"><span class="active-nav">About</span></a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link disabled" href="/signup.html">Students</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link disabled" href="/academics.html">Academics</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4 navigation-container search-container">
+                      <form class="form-inline my-2 my-lg-0">
+                          <span>
+                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                              <!-- Modal -->
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                                  Login
+                              </button>
+                              <!-- Modal -->
+                          </span>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          </div>
+          <div class="modal-body">
+              <!-- Bootrap Forms https://getbootstrap.com/docs/4.0/components/forms/ -->
+              <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+                <!-- Bootrap Forms https://getbootstrap.com/docs/4.0/components/forms/ -->
+          </div>
+      </div>
+      </div>
+  </div>
+    <!-- Modal -->
+      <div>
+      <main>
+        <div class="about-content-container">
+            <section  class="about-content">
+                <h1><strong> Study with us</strong></h1>
+                <strong> Our Campus</strong>
+                <br>
+                <p>
+                    Explore life at JC University
+                    Here at JC University, we want you to feel right at home. There's more or less everything you need on campus and for anything else, you have an entire city to choose from.
+                    You'll find us in the heart of JC's city centre where we're surrounded by supermarkets to suit all tastes, we have an abundance of high street stores along with loads of great little thrift stores, second-hand shops and boutiques, restaurants for every cuisine, clubs, theatres, museums - you name it, we have it. But you'll discover all that when you come to visit us! In the meantime, take a look at our campus.
+                </p>
+            </section> 
+        </div>
+        <div class="about-content-container">
+            <section class="about-content">
+                <img class="image-border" src="https://i0.wp.com/www.kadvacorp.com/wp-content/uploads/2015/04/%E2%80%9CSupernova%E2%80%9D-A-Contemporary-Music-School-Building-Architecture-By-Tomas-Ghisellini-For-Bressanone-Italy-10.jpg?resize=800%2C800&ssl=1" width="300" height="300" alt="building">
+                <img class="image-border" src="https://i.pinimg.com/originals/18/12/af/1812afa8e1cc86a832d037d03bc6498d.jpg" width="300" height="300" alt="building">
+                <img class="image-border" src="https://universe.byu.edu/wp-content/uploads/2023/01/music-1920x1280.jpg" width="300" height="300" alt="building">
+                <img class="image-border" src="https://i.pinimg.com/736x/5e/30/f9/5e30f9fbde7ca6e09c754e572332448c--cd-music-copper-wall.jpg" width="300" height="300" alt="building">
+                <br><br>
+                <p> The best thing about JC University is how world-class their research and facilities are. Your lecturers are all experts in their fields, but are also supportive and accessible if you need extra help or want to learn more.   
+                </p>         
+            </section>
+        </div>
+        
+      </main>
+      <footer>
+        <p>&copy; 2023 JC University. All rights reserved.</p>
+      </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/academics.css">
+</head>
+<body>
+    <!-- <From Bootrap> https://getbootstrap.com/docs/4.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light header-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 logo">
+                    <strong>
+                        <span class="navbar-brand">
+                            <img src="images/logo.png" class="jc-image">
+                            <span class="jc-text">JC UNIVERSITY</span>
+                        </span>
+                    </strong>
+                </div>
+                <div class="col-md-4 navigation-container">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="/signup.html">Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="/academics.html"><span class="active-nav">Academics</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 navigation-container search-container">
+                    <form class="form-inline my-2 my-lg-0">
+                        <span>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <!-- Modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">
+                                Login
+                            </button>
+                            <!-- Modal -->
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                </div>
+                <div class="modal-body">
+                    <!-- Bootrap Forms https://getbootstrap.com/docs/4.0/components/forms/ -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                        </form>
+                        <!-- Bootrap Forms https://getbootstrap.com/docs/4.0/components/forms/ -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="academics-container">
+                    <h1>Academic Overview</h1>
+                    <section>
+                        <h2>Overview of Academic Programs</h2>
+                        <p>Welcome to JC University, a hub of academic excellence and innovation. Our diverse range of programs is designed to empower students with the knowledge, skills, and experiences needed to succeed in a rapidly changing world. With a commitment to cutting-edge research, interdisciplinary collaboration, and experiential learning, we provide a transformative education that prepares students for leadership and impact.</p>
+                    </section>
+                    <section>
+                        <h2>Undergraduate Programs:</h2>
+                        <p>At JC University, our undergraduate programs offer a solid foundation for students to explore their academic passions and develop a strong skill set. From liberal arts to sciences, engineering to business, our undergraduate offerings cater to a wide spectrum of interests. Our engaging curriculum emphasizes critical thinking, communication, and real-world application.</p>
+                    </section>
+                    <section>
+                        <h2>Graduate Programs:</h2>
+                        <p>Elevate your expertise with our comprehensive array of graduate programs. Designed for professionals seeking advanced knowledge and specialization, our graduate offerings span master's, doctoral, and professional degrees. Whether you're pursuing advanced research in the sciences or honing your leadership skills in business, JC University provides the resources and mentorship to excel.</p>
+                    </section>
+                    <section>
+                        <h2>Interdisciplinary Studies:</h2>
+                        <p>Embrace the power of collaboration through our interdisciplinary programs. At JC University, we recognize that solving complex global challenges often requires a combination of perspectives. Our interdisciplinary studies allow students to merge multiple fields of study, fostering innovative solutions and expanding their intellectual horizons.</p>
+                    </section>
+                    <section>
+                        <h2>Research Opportunities:</h2>
+                        <p>As a research-intensive institution, JC University is committed to advancing knowledge and pushing boundaries. Our students have access to cutting-edge research facilities, laboratories, and partnerships that provide hands-on research experience. Whether it's conducting groundbreaking experiments or contributing to scholarly publications, our research opportunities are unparalleled.</p>
+                    </section>
+                    <section>
+                        <h2>Global Learning Initiatives:</h2>
+                        <p>Prepare for a globalized world with our emphasis on international learning. Through study abroad programs, cultural exchanges, and partnerships with institutions around the world, JC University offers students the chance to gain a global perspective and develop cross-cultural competencies.</p>
+                    </section>
+                    <section>
+                        <h2>Professional Development and Internships:</h2>
+                        <p>Seamlessly transition from classroom to career with our emphasis on practical experience. JC University has established connections with industry leaders, allowing students to secure internships, co-op placements, and networking opportunities that enhance their professional growth.</p>
+                    </section>
+                    <section>
+                        <h2>Continuing Education:</h2>
+                        <p>Our commitment to lifelong learning extends beyond traditional degree programs. JC University offers a range of continuing education opportunities, including professional certificates, workshops, and online courses, enabling individuals to acquire new skills and stay current in their fields.</p>
+                    </section>
+                    <section>
+                        <h2>Faculty Excellence:</h2>
+                        <p>At the heart of our academic programs are our distinguished faculty members. These experts are leaders in their fields, contributing to groundbreaking research and bringing real-world insights to the classroom. Their mentorship and guidance empower students to excel academically and professionally.
+                            Discover the array of academic possibilities that await you at JC University. From rigorous coursework to transformative research, we are dedicated to shaping the next generation of leaders and innovators who will make a positive impact on society.</p>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="academics-table">
+                    <table>
+                        <tr>
+                            <th>PROGRAM</th>
+                            <th>COLLEGE</th>
+                            <th>DEGREE TYPE</th>                      
+                        </tr>
+                        <tr>
+                            <td>Addiction and Recovery</td>
+                            <td>Medicine</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Manufacturing</td>
+                            <td>Engineering	</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Aging and Geriatric Practice</td>
+                            <td>Medicine</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Anatomical Sciences Education</td>
+                            <td>Medicine</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Arts in Medicine</td>
+                            <td>Arts</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Arts in Public Health</td>
+                            <td>Arts</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Biomedical Neuroscience</td>
+                            <td>Medicine</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Science Education</td>
+                            <td>Education</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Control Systems</td>
+                            <td>Engineering</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Disabilities in Society</td>
+                            <td>Education</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Early Childhood Studies</td>
+                            <td>Education</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Energy - Energy Management</td>
+                            <td>Engineering</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Energy - Solar Energy</td>
+                            <td>Engineering</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Engineering Innovation</td>
+                            <td>Engineering</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Engineering Leadership</td>
+                            <td>Engineering</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                        <tr>
+                            <td>Forensic DNA and Serology</td>
+                            <td>Pharmacy</td>
+                            <td>Graduate Certificate</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <p>&copy; 2023 JC University. All rights reserved.</p>
+    </footer>
+</body>
+</html>

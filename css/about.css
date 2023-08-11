@@ -1,0 +1,131 @@
+
+/* NAVIGATION HEADER */
+.jc-image{
+  height: 80px;
+  width: 80px;
+}
+
+.active-nav {
+  color:  #ED3833 !important
+}
+
+.header-nav {
+  background-color: #65451F;
+}
+
+.logo{
+  text-align: left;
+}
+
+.search-container{
+  text-align: left;
+}
+
+.jc-text{
+  color: #ED3833;
+}
+
+.navigation-container{
+  padding: 30px;
+}
+.nav-link {
+  color: #FFFF !important;
+}
+/* NAVIGATION HEADER */
+
+/* MODAL */
+.modal-body, .modal-header {
+  background-color: #EAC696 !important;
+  color: #65451F;
+}
+/* MODAL */
+
+
+
+/* COMMON ELEMENTS */
+button{
+  background-color: #ED3833 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: white !important;
+}
+/* COMMON ELEMENTS */
+
+.about-content-container {
+  text-align: center;
+  max-width: 100%;
+}
+
+.about-content {
+  margin-top: 100px;
+  padding: 100px 50px 100px 50px;
+  display:inline-block;
+  border: 10px solid #65451F;
+  background-color: #EAC696;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 25px;
+  width: 1000px;
+  color: #65451F;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.school{
+  background-image: url(https://lede-admin.blockclubchicago.org/wp-content/uploads/sites/5/2021/12/0-2-1.jpg?w=1013);background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100;
+}
+.JC{
+  text-align: center;
+  font-size: 75px;
+  color: #65451F;
+}
+
+body {
+  background-image: url('https://facts.stanford.edu/wp-content/uploads/sites/20/2023/01/20220414_Libraries_N6A7043_1200X600.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body, button {
+  margin: 0;
+  padding: 0;
+}
+
+.my-button {
+  background-color: #765827;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 50px
+}
+.image-border{
+  border: 3px solid;
+  color: #65451F;
+  border-radius: 10px;  
+  margin: 5px;
+}
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  background-color: #65451F;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  height: 60px;  
+}
+
+

@@ -1,0 +1,95 @@
+/* NAVIGATION HEADER */
+.jc-image{
+    height: 80px;
+    width: 80px;
+}
+
+.active-nav {
+    color:  #ED3833 !important
+}
+
+.header-nav {
+    background-color: #65451F;
+}
+
+.logo{
+    text-align: left;
+}
+
+.search-container{
+    text-align: left;
+}
+
+.jc-text{
+    color: #ED3833;
+}
+
+.navigation-container{
+    padding: 30px;
+}
+.nav-link {
+    color: #FFFF !important;
+}
+/* NAVIGATION HEADER */
+
+/* MODAL */
+.modal-body, .modal-header {
+    background-color: #EAC696 !important;
+}
+/* MODAL */
+
+/* FORM SIGNUP */
+.form-container {
+    width: 600px;
+    border: 1px solid black;
+    background-color: #EAC696;
+    text-align: center;
+    display:inline-block;
+    padding: 30px;
+    color: #65451F;
+
+}
+.app-form-container {
+    text-align: center;
+    max-width: 100%;
+    padding-top: 60px;
+}
+.signup-container{
+    text-align: center;
+}
+/* FORM SIGNUP */
+
+
+
+/* COMMON ELEMENTS */
+body{
+    background-color: #EAC696;
+}
+
+button{
+    background-color: #ED3833 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #65451F;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+}
+  
+  
+/* COMMON ELEMENTS */
+
+body {
+    background-image: url(https://facts.stanford.edu/wp-content/uploads/sites/20/2023/01/20220414_Libraries_N6A7043_1200X600.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

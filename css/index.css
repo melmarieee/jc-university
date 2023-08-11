@@ -1,0 +1,61 @@
+/* NAVIGATION HEADER */
+.active-nav {
+    color:  #ED3833 !important
+}
+.jc-image{
+    height: 80px;
+    width: 80px;
+}
+
+.header-nav {
+    background-color: #65451F;
+}
+
+.logo{
+    text-align: left;
+}
+
+.search-container{
+    text-align: left;
+}
+
+.jc-text{
+    color: #ED3833;
+}
+
+.navigation-container{
+    padding: 30px;
+}
+.nav-link {
+    color: #FFFF !important;
+}
+/* NAVIGATION HEADER */
+
+/* MODAL */
+.modal-body, .modal-header {
+    background-color: #EAC696 !important;
+    color: #65451F;
+}
+/* MODAL */
+
+
+
+/* COMMON ELEMENTS */
+button{
+    background-color: #ED3833 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #65451F;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+}
+/* COMMON ELEMENTS */
